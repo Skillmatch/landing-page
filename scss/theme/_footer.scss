@@ -1,13 +1,15 @@
 /* footer style start
 	============================================================================================ */
 .footer-area {
-	padding: 120px 0px 120px;
 	background: #0e1424;
 	@media (max-width: 991px) {
 		// background: $title-color;
 		padding: 60px 0px;
 	}
 	.single-footer-widget {
+    margin-left: auto;
+    margin-right: auto;
+
 		@media (max-width: 991px) {
 			margin-bottom: 30px;
 		}
@@ -70,14 +72,13 @@
 			border-radius: 0;
 			border-top-left-radius: 0px;
 			border-bottom-left-radius: 0px;
+      margin-left: 8px;
 			padding: 8px 20px;
 			border: 0;
 			font-size: 14px;
 			background: $white;
       font-weight: 500;
       text-transform: capitalize;
-			position: relative;
-			left: 0;
 			&:focus {
 				outline: none;
 				box-shadow: none;
