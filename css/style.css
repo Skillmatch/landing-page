@@ -246,7 +246,7 @@ h3, .h3 {
     top: -70px;
     left: 0;
     right: 0;
-    background: #412fb3;
+    background: #1881DF;
     z-index: 99;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
