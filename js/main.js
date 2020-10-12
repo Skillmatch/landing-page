@@ -87,8 +87,8 @@ $(function() {
   var index = companies.length - 1;
 
   setInterval(function () {
-    var companyName = document.getElementById("job");
-    companyName.innerText = "Get Your Dream Job At " + companies[(index + 1) % companies.length];
+    var companyName = document.getElementById("company");
+    companyName.innerText = companies[(index + 1) % companies.length];
     index = index + 1;
   }, 3000);
 });
